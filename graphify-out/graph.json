@@ -1,0 +1,147 @@
+{
+  "nodes": [
+    {
+      "id": "file::build_pdf",
+      "label": "build_pdf.py",
+      "fileType": "code",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:1"
+    },
+    {
+      "id": "build_pdf::tex_to_img",
+      "label": "tex_to_img",
+      "fileType": "code",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:37"
+    },
+    {
+      "id": "build_pdf::_convert_math_segment",
+      "label": "_convert_math_segment",
+      "fileType": "code",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:50"
+    },
+    {
+      "id": "build_pdf::convert_math",
+      "label": "convert_math",
+      "fileType": "code",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:63"
+    },
+    {
+      "id": "build_pdf::md_to_html",
+      "label": "md_to_html",
+      "fileType": "code",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:67"
+    },
+    {
+      "id": "build_pdf::slug",
+      "label": "slug",
+      "fileType": "code",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:74"
+    },
+    {
+      "id": "build_pdf::chapter_files",
+      "label": "chapter_files",
+      "fileType": "code",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:77"
+    },
+    {
+      "id": "build_pdf::render",
+      "label": "render",
+      "fileType": "code",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:80"
+    },
+    {
+      "id": "build_pdf::main",
+      "label": "main",
+      "fileType": "code",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:112"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file::build_pdf",
+      "target": "build_pdf::tex_to_img",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:37",
+      "weight": 1
+    },
+    {
+      "source": "file::build_pdf",
+      "target": "build_pdf::_convert_math_segment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:50",
+      "weight": 1
+    },
+    {
+      "source": "file::build_pdf",
+      "target": "build_pdf::convert_math",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:63",
+      "weight": 1
+    },
+    {
+      "source": "file::build_pdf",
+      "target": "build_pdf::md_to_html",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:67",
+      "weight": 1
+    },
+    {
+      "source": "file::build_pdf",
+      "target": "build_pdf::slug",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:74",
+      "weight": 1
+    },
+    {
+      "source": "file::build_pdf",
+      "target": "build_pdf::chapter_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:77",
+      "weight": 1
+    },
+    {
+      "source": "file::build_pdf",
+      "target": "build_pdf::render",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:80",
+      "weight": 1
+    },
+    {
+      "source": "file::build_pdf",
+      "target": "build_pdf::main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "sourceFile": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py",
+      "sourceLocation": "/sessions/practical-nifty-dirac/mnt/ADVANCE RAG/AI_ML_Interview_Book/build/build_pdf.py:112",
+      "weight": 1
+    }
+  ],
+  "metadata": {
+    "files": 40,
+    "nodes": 9,
+    "edges": 8,
+    "builtAt": "2026-07-10T08:45:56.963Z"
+  }
+}

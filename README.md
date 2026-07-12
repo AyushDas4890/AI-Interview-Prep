@@ -20,14 +20,10 @@ Welcome to **AI-BOOKS**—a comprehensive, production-grade guide designed to he
 | **I. Foundations** | Ch 1: Mathematics for ML | Linear Algebra, Calculus, Probability, Optimization | 🟢 Drafted |
 | | Ch 2: Python for ML | Performance, Memory, Vectorization, Libraries | 🟢 Drafted |
 | | Ch 3: Data Structures & Algorithms | Core structures, ML-specific algorithms (KNN, k-means from scratch) | 🟢 Drafted |
-| **II. Classical ML** | Ch 4: ML Fundamentals | Bias-variance, leakage demos, cross-validation | 🟢 Drafted |
-| | Ch 5: Regression | OLS 3 ways, Lasso, Ridge, Logistic Regression, GLMs | 🟢 Drafted |
-| | Ch 6: Classification | KNN, Naive Bayes, SVMs, Decision Trees, Pruning | 🟢 Drafted |
-| | Ch 7: Ensemble Methods | Bagging, Boosting (AdaBoost, GBM from scratch), XGBoost, Stacking | 🟢 Drafted |
-| | Ch 8: Unsupervised Learning | K-Means, DBSCAN, GMMs (EM), PCA, t-SNE, UMAP | 🟢 Drafted |
-| | Ch 9-11: Feature Eng., Evaluation, Interpretability | Feature engineering, evaluation metrics, model interpretability | ⏳ Up Next |
-| **III. Deep Learning** | Ch 12-18: NNs, Vision, Transformers | Feedforward, CNNs, RNNs, Transformers, Generative Models | ⏳ Planned |
-| **IV. NLP & LLMs** | Ch 19-25: LMs, RAG, Agents | Tokenizers, pretraining, LLM alignment, RAG pipelines, Agents | ⏳ Planned |
+| **II. Classical ML** | Ch 4-11: Fundamentals, Regression, Classification, Ensembles, Unsupervised, Feature Eng., Evaluation, Interpretability | Fully implemented from-scratch algorithms, mathematical proofs, evaluation metrics, and model interpretability | ✅ Verified |
+| **III. Deep Learning** | Ch 12-18: NNs, Training, CNNs, RNNs, Transformers, Computer Vision, Generative Models | MLP backprop, custom optimizers, im2col CNN, Bahdanau Attention, pre/post-norm Transformers, GANs, VAEs, DDPMs | 🟢 Drafted |
+| **IV. NLP & LLMs** | Ch 19-24: Classical & Neural NLP, Pretrained LMs, LLM Training & Alignment, LLM Inference, Prompt Eng., RAG | Word2Vec, MLM/CLM pretraining, SFT, RLHF, DPO, LoRA, quantization, KV Cache, Speculative Decoding, HNSW IVF RAG | 🟢 Drafted |
+| | Ch 25: AI Agents | Agent loops, tool-use, Planning, ReAct paradigms | ⏳ Planned |
 | **V. ML Systems** | Ch 26-29: System Design & MLOps | System design, deployment, distributed training | ⏳ Planned |
 | **VI. Specialized** | Ch 30-33: RecSys, Time Series, RL, Ethics | Recommenders, Forecasting, Reinforcement Learning, Responsible AI | ⏳ Planned |
 | **VII. Coding & Prep** | Ch 34-39: Frameworks & Mock Interviews | Frameworks (PyTorch/TF), debugging, case studies | ⏳ Planned |
